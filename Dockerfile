@@ -2,7 +2,7 @@ FROM node:8.11.1
 
 MAINTAINER Evgeniy Cheban <mister.cheban@gmail.com>
 
-LABEL name="node-chrome-xvfb"
+LABEL name="node-chrome"
 
 # Install Chrome
 
@@ -13,8 +13,7 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
 RUN set -x \
     && apt-get update \
     && apt-get install -y \
-        google-chrome-stable \
-        xvfb
+        google-chrome-stable
 
 ENV CHROME_BIN /usr/bin/google-chrome
 
