@@ -1,1 +1,1 @@
-# node-chrome-xvfb
+# Node, Chrome Docker Image.
