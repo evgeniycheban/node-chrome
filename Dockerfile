@@ -24,5 +24,3 @@ RUN set -x \
     && node -v \
     && npm -v \
     && google-chrome --version
-
-ENV DISPLAY :99.0
