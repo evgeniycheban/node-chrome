@@ -25,6 +25,4 @@ RUN set -x \
     && npm -v \
     && google-chrome --version
 
-RUN Xvfb :99 -ac -screen 0 1024x768x16
-
 ENV DISPLAY :99.0
